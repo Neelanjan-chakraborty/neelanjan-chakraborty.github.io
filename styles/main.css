@@ -536,14 +536,16 @@ li{
 .copy-box .line
 {
   position: absolute;
-  background-color: aqua;
-  box-shadow: 0px 0px 12px aqua;
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  -webkit-box-shadow: 0px 0px 12px ;
+  /*box-shadow: 0px 0px 12px ;*/
   width: 4px;
   height: calc(100% - 20px);
   top: 10px;
   left: 22px;
   border-radius: 50%;
   overflow: hidden;
+  -webkit-animation: hue 30s infinite linear;
 }
 .copy-box.two .line
 {
