@@ -315,7 +315,7 @@ li{
   }
 
   #testbutton:before {
-    content: '';
+    content: 'Contact Me!';
     z-index: 1;
     position: absolute;
     display: block;
@@ -337,7 +337,7 @@ li{
   }
 
   #testbutton:after {
-    content: 'Hire Me!';
+    content: 'E-Mail';
     text-align: center;
     line-height: 40px;
     font-size: 18px;
